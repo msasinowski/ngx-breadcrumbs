@@ -1,10 +1,13 @@
+# Information
+Its only fork of https://github.com/McNull/ngx-breadcrumbs with support of Angular 6 and rxjs6
+
 # Ngx-Breadcrumbs
 An Angular (4+) module generating breadcrumbs based on the routing state.
 
 ## Installation
 ```bash
 # install via npm
-$ npm --save install ngx-breadcrumbs
+$ npm --save install ngx6-breadcrumbs
 ```
 ```bash
 # install via yarn

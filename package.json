@@ -1,35 +1,37 @@
 {
-  "name": "ngx-breadcrumbs",
+  "name": "ngx6-angular-breadcrumbs",
   "license": "MIT",
-  "version": "0.0.4",
-  "description": "Angular 4+ routing breadcrumbs",
+  "version": "0.0.1",
+  "description": "Angular 6 Ngx-Breadcrumbs",
   "author": {
-    "name": "(null) McNull",
-    "email": "noreplies@hotmail.com"
+    "name": "masas",
+    "email": "maciejsasinowski@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/McNull/ngx-breadcrumbs"
+    "url": "https://github.com/msasinowski/ngx-breadcrumbs"
   },
   "keywords": [
     "angular",
-    "angular4",
+    "angular6",
+    "angular5",
+    "rxjs",
     "breadcrumbs",
     "routing"
   ],
-  "homepage": "https://github.com/McNull/ngx-breadcrumbs",
+  "homepage": "https://github.com/msasinowski/ngx-breadcrumbs",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:pkg": "rimraf ./build && ng-packagr -p src/lib/mc-breadcrumbs/ng-package.json && cp {README.md,LICENSE} build/ngx-breadcrumbs",
+    "build:pkg": "rimraf ./build && ng-packagr -p src/lib/mc-breadcrumbs/ng-package.json && cp README.md build/ngx-breadcrumbs",
     "link:pkg": "./link.sh",
     "build:integration": "npm run build:pkg && npm run link:pkg && ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^6.0.6",
     "@angular/common": "^6.0.6",
